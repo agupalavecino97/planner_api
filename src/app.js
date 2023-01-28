@@ -25,7 +25,7 @@ app.use(ActivitiesRoutes);
 
 
 app.get('/', (req, res) => {
-    res.send(`API is at http://localhost:${app.get('port')}`)
+    res.send(`API is at port ${app.get('port')}`)
 });
 
 module.exports = app;
